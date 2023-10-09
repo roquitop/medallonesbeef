@@ -1,0 +1,200 @@
+body {
+  background-color: black;
+  font-family: 'Coda', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.navbar h1 {
+  font-size: 40px;
+  color: white;
+}
+
+#search-form {
+  display: flex;
+  align-items: center;
+}
+
+#search-input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+#cart-btn {
+  font-family: 'Coda', sans-serif;
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#cart-btn:hover {
+  background-color: #e60000;
+}
+
+section {
+  padding: 20px;
+}
+
+#about h2,
+#mission-vision h2,
+#productos h2,
+#cart h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.product-card {
+  display: inline-block;
+  width: 200px;
+  margin: 10px;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.product-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.product-card p {
+  margin-bottom: 5px;
+  color: white;
+}
+
+.product-card button {
+  font-family: 'Coda', sans-serif;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background-color: #e60000;
+}
+
+#cart button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#cart button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+}
+
+.slider-frame {
+width: 1080px;
+  height: auto;
+margin:50px auto 0;
+overflow: hidden;
+}
+
+.slider-frame ul {
+display: flex;
+padding: 0;
+width: 400%;
+
+animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+width: 100%;
+list-style: none;
+}
+
+.slider-frame img {
+width: 100%;
+}
+
+@keyframes slide {
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+
+75% {margin-left: -300%;}
+100% {margin-left: -300%;}
+}
+
+.botones {
+  min-width: 700px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.botones a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #314652;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.botones a:hover {
+  transform: scale(1.2);
+}
+.boton-carrito {
+  font-family: 'Coda', sans-serif;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+
+}
+
